@@ -161,7 +161,6 @@ header nav .navbar {
 
 }
 }
-
  nav .navbar  li {
     padding: 20px 10px;
     color: #000;
@@ -558,9 +557,9 @@ align-content: center;
    width: 100%;
 }
 .shop-item .shop-image img {
-  display: block; /*always put this here to make the height of the overlay over the image*/
-  width: 100%; /*always put this here to make the height of the overlay over the image*/
-  height: auto; /*always put this here to make the height of the overlay over the image*/ 
+  display: block; 
+  width: 100%; 
+  height: auto; 
 }
 .shop-image .shop-btn a {
     position: absolute;
@@ -609,17 +608,10 @@ align-content: center;
     position: relative;
 }
 @media (max-width: 768px) {
-.sales {
-   
-
-}
-  }
-@media (max-width: 768px) {
 .sales-image img {
     display: none;
 }
   }
-
 .sales-image {
     width: 400px;
     position: relative;
@@ -926,7 +918,6 @@ transition:  background-position .2s;
 @media (max-width: 768px) {
 .subscribe .subscribe-title {
      font-size: 2rem;
-
 }
   }
 .subscribe .subscribe-desc {
